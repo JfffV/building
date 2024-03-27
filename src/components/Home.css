@@ -10,5 +10,20 @@
     position: relative;
   }
  .title{
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-left: 40px;
   color: white;
+  
+ }
+ .homepage_title{
+  font-weight: 800;
+  font-size: 42px;
+ 
+ }
+ .homepage_title_two{
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
  }
