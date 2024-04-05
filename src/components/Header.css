@@ -13,6 +13,7 @@
     align-items: center;
     margin: 0 auto;
 }
+
 .logo{
   font-weight: 900;
   font-size: 26px;
@@ -23,6 +24,7 @@
     margin-left: 40px;
    
 }
+
 .nav_element{
     display: inline;
     font-size: 26px;
@@ -32,6 +34,7 @@
     cursor: pointer;
     transition: opacity 500ms ease;
 }
+
 .nav_element:hover{
  opacity: 0.5;
 }

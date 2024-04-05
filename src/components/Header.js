@@ -9,10 +9,10 @@ export default function Header() {
         <span className="logo"> Building </span>
         <ul className="nav">
           <li className="nav_element">
-            <Link to="/blogs">About Us</Link>
+            <Link to="/aboutUs">About Us</Link>
           </li>
           <li className="nav_element">
-            <Link to="/about">Our Works</Link>
+            <Link to="/ourWorks">Our Works</Link>
           </li>
           <li className="nav_element">Contact</li>
         </ul>

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Body.css";
+import "./HomePage.css";
 
-export default function Body() {
+export default function HomePage() {
   return (
     <div className="presentation">
       <div className="title">asdasdsa</div>

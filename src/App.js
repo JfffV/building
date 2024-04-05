@@ -3,8 +3,9 @@ import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Body from "./components/Body";
+import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
+import OurWorks from "./components/OurWorks";
 import { useState } from "react";
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="blogs" element={<Body />} />
-          <Route path="about" element={<AboutUs />} />
+          <Route path="ourWorks" element={<OurWorks />} />
+          <Route path="aboutUs" element={<AboutUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>
