@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import { useState } from "react";
-import Our_works from "./components/Our_works";
+import OurWorks from "./components/OurWorks";
 
 function App() {
   return (
@@ -16,11 +16,10 @@ function App() {
         <Routes>
           <Route path="home" element={<Home />} />
           <Route path="about" element={<AboutUs />} />
-          <Route path="our_works" element={<Our_works />} />
+          <Route path="ourWorks" element={<OurWorks />} />
         </Routes>
         <Footer />
       </BrowserRouter>
-      
     </div>
   );
 }

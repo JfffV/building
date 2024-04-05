@@ -8,14 +8,20 @@ export default function Header() {
       <div className="nav_container">
         <span className="logo">
           {" "}
-          <Link className="nav_link" to="/home">Building</Link>{" "}
+          <Link className="nav_link" to="/home">
+            Building
+          </Link>{" "}
         </span>
         <ul className="nav">
           <li className="nav_element">
-            <Link className="nav_link" to="/about">About Us</Link>
+            <Link className="nav_link" to="/about">
+              About Us
+            </Link>
           </li>
           <li className="nav_element">
-            <Link className="nav_link" to="/our_works">Our Works</Link>
+            <Link className="nav_link" to="/ourWorks">
+              Our Works
+            </Link>
           </li>
         </ul>
       </div>

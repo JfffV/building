@@ -1,8 +1,8 @@
 import React from "react";
-import "./Our_works.css";
+import "./OurWorks.css";
 import { useState } from "react";
 
-export default function Our_works() {
+export default function OurWorks() {
   const [works, setWorks] = useState([
     {
       title: "Home in Belgrad ",
