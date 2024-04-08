@@ -4,8 +4,8 @@
     height: 75px;
     background-color: #292928;
     margin: 0 auto;
-    
 }
+
 .nav_container{
     display: flex;
     justify-content:center;
@@ -15,14 +15,13 @@
 }
 
 .logo{
-  font-weight: 900;
-  font-size: 26px;
-  color: white;
+    font-weight: 900;
+    font-size: 26px;
+    color: white;
 }
 
 .nav{
     margin-left: 40px;
-   
 }
 
 .nav_element{
@@ -36,5 +35,5 @@
 }
 
 .nav_element:hover{
- opacity: 0.5;
+    opacity: 0.5;
 }
