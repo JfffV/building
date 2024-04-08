@@ -1,24 +1,16 @@
 import React from "react";
-import "./About_us.css";
+import "./AboutUs.css";
 
 export default function AboutUs() {
   return (
-      <div className="footer_container">
-        <span className="copyright">
-          Copyright © 2024. All rights reserved &copy;
-        </span>
-      </div>
-  
-  );
-}
-<div>
+    <div>
       <div className="top_section_about"></div>
       <div className="content">
         <div className="about">
           <div className="about_title"> About us </div>
           <div className="about_container">
             <div className="about_icon">
-              <img className="about_us_icon" src="img/about.jpg"></img>
+              <img className="about_us_icon" src="/img/about.jpg"></img>
             </div>
             <div className="about_text">
               Our construction company isn't just about building structures;
@@ -104,7 +96,8 @@ export default function AboutUs() {
                         stroke="black"
                         stroke-dashoffset="18.840000000000785"
                       ></circle>
-                      <text id="crossbarTextContainer2"
+                      <text
+                        id="crossbarTextContainer2"
                         x="72"
                         y="72"
                         text-anchor="middle"
@@ -124,3 +117,5 @@ export default function AboutUs() {
         </div>
       </div>
     </div>
+  );
+}

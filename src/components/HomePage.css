@@ -1,29 +1,29 @@
 .presentation{
-  background: url("../../public/img/homepage.jpg") no-repeat;
-  width: 100%;
-  height: 800px;
-  background-size: cover;
-  background-position: center center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, .5);
-  position: relative;
+    background: url("../../public/img/homepage.jpg") no-repeat;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
 }
 
 .title{
-display: flex;
-flex-direction: column;
-padding-top: 120px;
-padding-left: 40px;
-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-left: 40px;
+  color: white;
 }
 
 .homepage_title{
-font-weight: 800;
-font-size: 42px;
+  font-weight: 800;
+  font-size: 42px;
 }
 
 .homepage_title_two{
-padding-top: 30px;
-font-weight: 600;
-font-size: 32px;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
 }
